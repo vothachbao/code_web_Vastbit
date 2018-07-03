@@ -126,7 +126,7 @@ header
 
 .navbar-brand
 {
-    padding: 10px 15px;
+    padding: 1px 15px;
 }
 
 .navbar
@@ -995,7 +995,7 @@ services
 {
     display: inline-block; 
 
-    width: 128px;
+    width: 256px;
     height: 128px;
 
     text-align: center;
