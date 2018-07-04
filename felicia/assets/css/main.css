@@ -2152,8 +2152,6 @@ responsive
     .navbar
     {
         height: auto;
-
-        text-align: center;
     }
     .navbar-brand,
     .navbar-header
@@ -2239,18 +2237,6 @@ responsive
     {
         background-attachment: scroll;
     }
-    .price-bg-height
-    {
-        max-height: 100%;
-    }
-    .price-list
-    {
-        margin-bottom: 30px;
-    }
-    .fun-box
-    {
-        margin-bottom: 50px;
-    }
 }
 
 @media (max-width: 767px)
@@ -2331,18 +2317,6 @@ responsive
     {
         margin-top: 70px;
     }
-    .price-bg-height
-    {
-        max-height: 100%;
-    }
-    .price-list
-    {
-        margin-bottom: 30px;
-    }
-    .fun-box
-    {
-        margin-bottom: 50px;
-    }
     .services-list
     {
         margin-bottom: 0;
@@ -2403,10 +2377,6 @@ responsive
     {
         width: 100%;
     }
-    .blog-wrap .post-blog p
-    {
-        margin-bottom: 0;
-    }
 }
 
 @media (max-width: 479px)
@@ -2414,21 +2384,5 @@ responsive
     .hero .hero-content .hero-title
     {
         font-size: 26px;
-    }
-    .testimonial-shadow .media
-    {
-        text-align: center;
-    }
-    .testimonial-shadow .media-left
-    {
-        display: inline-block;
-
-        margin-bottom: 20px;
-    }
-    .testimonial-wrapper .testimonial-author-wrapper .testimonial-author
-    {
-        font-size: 10px;
-
-        padding: 8px 15px;
     }
 }
