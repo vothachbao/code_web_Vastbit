@@ -967,14 +967,13 @@ services
 {
     margin-bottom: 40px;
     padding: 40px;
-
+    display: inline-block;
     -webkit-transition: box-shadow .3s ease-out, opacity .2s ease-out, -webkit-transform .3s ease-out;
-            transition: box-shadow .3s ease-out, opacity .2s ease-out, -webkit-transform .3s ease-out;
-            transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out;
-            transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out, -webkit-transform .3s ease-out;
+    transition: box-shadow .3s ease-out, opacity .2s ease-out, -webkit-transform .3s ease-out;
+    transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out;
+    transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out, -webkit-transform .3s ease-out;
     -webkit-transition-delay: .1s;
-            transition-delay: .1s; 
-
+    transition-delay: .1s;
     border-radius: 6px;
     background: #fff;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .05);
@@ -993,11 +992,9 @@ services
 
 .feature-list-img
 {
-    display: inline-block; 
-
-    width: 256px;
-    height: 128px;
-
+    display: inline-block;
+    width: 90%;
+    height: auto;
     text-align: center;
 }
 .feature-list-img img
@@ -1343,7 +1340,7 @@ portfolio
 }
 
 /* ----------------------------------------------------------------
-	Isotope Filtering
+    Isotope Filtering
 -----------------------------------------------------------------*/
 .isotope-item
 {
