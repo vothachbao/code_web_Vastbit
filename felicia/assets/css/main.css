@@ -126,7 +126,8 @@ header
 
 .navbar-brand
 {
-    padding: 1px 15px;
+    padding: 0px 15px;
+    margin-top: -5px;
 }
 
 .navbar
@@ -192,7 +193,7 @@ header
 .navbar .navbar-nav li a:before
 {
     position: absolute;
-    bottom: -14px;
+    bottom: 0px;
     left: 50%;
 
     width: 0;
@@ -256,7 +257,7 @@ header
 .navbar .navbar-nav li.current a:before
 {
     position: absolute;
-    bottom: -14px;
+    bottom: 0px;
     left: 0;
 
     width: 100%;
@@ -579,8 +580,6 @@ section p
     font-size: 4rem;
     font-weight: 700;
     line-height: normal; 
-
-    margin-bottom: 50px;
 }
 
 .quotation-author
@@ -865,79 +864,6 @@ section p
     color: #fc4848;
 }
 
-/* testimonial */
-.testimonial-wrapper .thumb
-{
-    display: inline-block;
-    overflow: hidden;
-
-    width: 90px;
-    height: 90px;
-    margin-bottom: 3rem; 
-
-    border-radius: 50%;
-}
-.testimonial-wrapper .thumb img
-{
-    display: block;
-
-    max-width: 100%;
-    height: auto;
-}
-
-.testimonial-wrapper .media-body
-{
-    font-style: italic;
-
-    color: #414141;
-}
-
-.testimonial-wrapper .item
-{
-    padding: 30px;
-}
-
-.testimonial-wrapper .testimonial-author-wrapper
-{
-    position: absolute;
-    top: 100%;
-    left: 0;
-
-    width: 100%;
-    padding: 0 40px;
-
-    text-align: center;
-    letter-spacing: .04em;
-}
-.testimonial-wrapper .testimonial-author-wrapper .testimonial-author
-{
-    font-size: 12px;
-    font-weight: bold;
-
-    display: inline-block;
-
-    text-transform: uppercase;
-
-    color: #fff;
-}
-
-.testimonial-wrapper .testimonial-text
-{
-    font-size: 20px;
-    font-style: italic;
-}
-
-.testimonial-wrapper.owl-theme .owl-nav.disabled + .owl-dots
-{
-    margin-top: 0;
-}
-
-.testimonial-wrapper.owl-theme .owl-dots .owl-dot.active span,
-.testimonial-wrapper.owl-theme .owl-dots .owl-dot:hover span
-{
-    background: #adadad;
-}
-
 /* ---------------------------------------------
 services
 --------------------------------------------- */
@@ -1100,14 +1026,15 @@ services
 
 .services-list
 {
-    margin-bottom: 80px;
+    height: 100px;
+    margin-bottom: 50px;
 }
 .services-list .services-icon
 {
     float: left;
 
     margin-bottom: 35px;
-    padding-right: 3rem;
+    width: 80px;
 }
 .services-list .services-icon i
 {
@@ -1526,279 +1453,6 @@ pricing
     background: #33b3ee;
 }
 
-/* ---------------------------------------------
-blog
---------------------------------------------- */
-.blog-wrap
-{
-    padding: 10px;
-}
-
-.post-header
-{
-    margin-bottom: 30px;
-}
-.post-header .cat .post-categories
-{
-    padding: 0; 
-
-    list-style: none;
-}
-.post-header .cat .post-categories li
-{
-    display: inline-block;
-}
-.post-header .cat .post-categories li a
-{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-
-    margin-right: 10px; 
-
-    text-transform: uppercase;
-
-    color: #fc4848;
-}
-.post-header .cat .post-categories li a:hover
-{
-    text-decoration: underline;
-}
-.post-header h2
-{
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 25px;
-
-    margin-top: 10px; 
-
-    color: #414141;
-}
-.post-header h2 a
-{
-    color: #414141;
-}
-.post-header h2 a:hover
-{
-    color: #fc4848;
-}
-.post-header .post-auth-date
-{
-    font-size: 14px; 
-
-    color: #909090;
-}
-.post-header .post-auth-date a
-{
-    color: #909090;
-}
-.post-header .post-auth-date a:hover
-{
-    color: #000;
-}
-
-.text-right .cat .post-categories li a
-{
-    margin-left: 10px;
-}
-
-.tags ul
-{
-    padding: 0; 
-
-    list-style: none;
-}
-.tags ul li
-{
-    display: inline-block;
-
-    margin-right: 10px;
-}
-.tags ul li a
-{
-    font-size: 14px;
-
-    padding: 8px 20px;
-
-    color: #000;
-    border-radius: 3px; 
-    background: #ececec;
-}
-.tags ul li a:hover
-{
-    color: #fff; 
-    background: #414141;
-}
-
-.pagination > li:first-child > a,
-.pagination > li:first-child > span,
-.pagination > li:last-child > a,
-.pagination > li:last-child > span
-{
-    padding-right: 3rem; 
-    padding-left: 3rem;
-
-    border-radius: 5px;
-}
-
-.pagination > li > a,
-.pagination > li > span
-{
-    margin: 0 5px;
-
-    color: #414141;
-    border-color: #e8e8e8;
-    border-radius: 50%;
-}
-
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover
-{
-    border-color: #000;
-    border-radius: 50%; 
-    background-color: #000;
-}
-
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover
-{
-    color: #fff; 
-    border-color: #414141;
-    background-color: #414141;
-}
-
-.comments-list .media-body a
-{
-    color: #000;
-}
-.comments-list .media-body a:hover
-{
-    color: #fc4848;
-}
-
-.comments-list .author-title
-{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-}
-
-.comments-list .comments-meta
-{
-    font-size: 14px; 
-
-    color: #757575;
-}
-.comments-list .comments-meta a
-{
-    margin-left: 10px;
-}
-
-.comments-list .comments-txt
-{
-    font-size: 14px; 
-
-    color: #5c5c5c;
-}
-
-.widget
-{
-    margin-bottom: 5rem;
-}
-.widget .form-control
-{
-    box-shadow: none;
-}
-.widget .form-control:focus
-{
-    border-color: #414141;
-}
-.widget p
-{
-    font-size: 14px;
-    line-height: 24px;
-
-    margin-bottom: 20px;
-}
-.widget ul li
-{
-    font-size: 14px; 
-
-    margin-bottom: 2rem;
-}
-.widget ul li a
-{
-    color: #414141;
-}
-.widget ul li a:hover
-{
-    color: #fc4848;
-}
-.widget ul li span
-{
-    float: right;
-
-    color: #757575;
-}
-.widget h5
-{
-    font-size: 13px;
-
-    margin-bottom: 0;
-}
-.widget h5 a
-{
-    color: #414141;
-}
-.widget h5 a:hover
-{
-    color: #fc4848;
-}
-.widget .latest-post .media-body p
-{
-    font-size: 11px;
-}
-.widget .latest-post .thumb
-{
-    width: 55px;
-}
-.widget .latest-post .thumb img
-{
-    width: 100px;
-    height: auto;
-}
-
-.widget-title
-{
-    font-size: 14px;
-    font-weight: bold;
-
-    margin-bottom: 4rem;
-
-    text-transform: uppercase;
-}
-
-.widget-search
-{
-    position: relative;
-}
-.widget-search .form-control
-{
-    padding-right: 35px;
-}
-.widget-search i
-{
-    position: absolute;
-    top: 15px;
-    right: 15px;
-
-    color: #757575;
-}
 
 /* ---------------------------------------------
 contact
@@ -2493,7 +2147,7 @@ shortcodes
 /* ---------------------------------------------
 responsive
 --------------------------------------------- */
-@media (max-width: 768px)
+@media (max-width: 991px)
 {
     .navbar
     {
