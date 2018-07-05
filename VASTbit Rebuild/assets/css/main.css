@@ -762,11 +762,12 @@ section p
 {
     text-align: center;
 }
-.clients .features-list-img
+.clients .feature-list-img
 {
     display: inline-block; 
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
     text-align: center;
 }
 .clients .feature-list-img img
@@ -829,15 +830,15 @@ services
     box-shadow: rgba(45, 45, 45, .05) 0 2px 2px, rgba(49, 49, 49, .05) 0 4px 4px, rgba(42, 42, 42, .05) 0 8px 8px, rgba(32, 32, 32, .05) 0 16px 16px, rgba(49, 49, 49, .05) 0 32px 32px, rgba(35, 35, 35, .05) 0 64px 64px;
 }
 
-.feature-list-img
+.technologies .feature-list-img
 {
     display: inline-block; 
     width: 100px;
     height: 75px;
-
+    margin-bottom: 15px;
     text-align: center;
 }
-.feature-list-img img
+.technologies .feature-list-img img
 {
     width: 100%;
     height: 75%;
