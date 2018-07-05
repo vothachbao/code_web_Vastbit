@@ -127,9 +127,13 @@ header
 .navbar-brand
 {
     padding: 0px 15px;
-    margin-top: -5px;
+    margin-top: 5px;
+    margin-bottom: -15px;
 }
-
+.navbar-brand > img
+{
+    max-width: 75%;
+}
 .navbar
 {
     height: 75px;
@@ -430,8 +434,8 @@ section
 {
     position: relative;
     z-index: 100;
-
     background: #fff;
+    margin-bottom: 500px !important;
 }
 
 .section-wrapper
@@ -747,122 +751,30 @@ section p
 .parallax
 {
     position: relative; 
-
+    text-align: justify;
     background: no-repeat center center scroll;
     background-attachment: fixed;
     background-size: cover;
 }
 
-/* team member */
-.team-wrapper
+/* clients member */
+.clients
 {
     text-align: center;
 }
-
-.team-member
-{
-    display: inline-block;
-    float: none;
-
-    box-sizing: border-box;
-    width: 33%;
-    margin-bottom: 50px;
-    padding: 0 30px;
-
-    text-align: left;
-}
-.team-member .thumb
-{
-    position: relative;
-
-    margin-bottom: 30px;
-}
-.team-member .thumb:before
-{
-    position: absolute;
-    z-index: 10;
-
-    display: block;
-
-    width: 100%;
-    height: 100%;
-
-    content: '';
-    -webkit-transition: all .3s;
-            transition: all .3s;
-
-    opacity: 0; 
-    border-radius: 4px;
-    background: rgba(0, 0, 0, .8);
-}
-.team-member .thumb .team-info
-{
-    font-size: 14px;
-    line-height: 25px;
-
-    position: absolute;
-    z-index: 11;
-    top: 0;
-
-    padding: 8%;
-
-    -webkit-transition: all .3s;
-            transition: all .3s;
-
-    opacity: 0; 
-    color: #fff;
-}
-.team-member .thumb img
-{
-    width: 100%;
-    height: auto;
-
-    border-radius: 4px;
-}
-.team-member:hover .thumb:before
-{
-    -webkit-transition: all .3s;
-            transition: all .3s; 
-
-    opacity: 1;
-}
-.team-member:hover .thumb .team-info
-{
-    top: 20%;
-
-    -webkit-transition: all .3s;
-            transition: all .3s; 
-
-    opacity: 1;
-}
-.team-member .team-title
-{
-    font-size: 16px;
-    font-weight: bold;
-
-    margin: 0 0 5px 0;
-}
-.team-member .team-designation
-{
-    font-size: 14px;
-
-    margin-bottom: 30px; 
-
-    color: #757575;
-}
-.team-member .team-socail-links a
+.clients .features-list-img
 {
     display: inline-block; 
-
-    margin-right: 20px;
-    margin-bottom: 10px;
-
-    color: #757575;
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
-.team-member .team-socail-links a:hover
+.clients .feature-list-img img
 {
-    color: #fc4848;
+    width: 100%;
+    height: 100%;
 }
+
 
 /* ---------------------------------------------
 services
@@ -1043,6 +955,11 @@ services
     position: relative;
     top: 0;
 }
+.about .services-list .services-icon img
+{
+    width: 75%;
+}
+
 .services-list .services-desk
 {
     display: inherit;
@@ -1268,6 +1185,48 @@ portfolio
     width: 16.666666667%;
 }
 
+/*--------------------------------------
+    career
+--------------------------------------*/
+
+.career-list{
+    text-align: center;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1); 
+    background: #fff8f8;
+}
+.career-list .career-menu
+{
+    font-size: 24px;
+    font-weight: 300; 
+    font-weight: bold;
+    color: #fc4848;
+    margin: 0;
+}
+.career-list .career-menu p
+{
+    margin-bottom: 10px;
+    color: #fc4848;
+
+}
+.career-list .career-job li
+{
+    line-height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.career-list .career-job a
+{
+    color: #000;
+}
+.career-list .career-job a:hover
+{
+    color: #fc4848;
+}
+
+
 /* ----------------------------------------------------------------
 	Isotope Filtering
 -----------------------------------------------------------------*/
@@ -1369,88 +1328,21 @@ portfolio
 }
 
 /* ---------------------------------------------
-pricing
+services
 --------------------------------------------- */
-.price-list
-{
-    padding: 40px;
-
-    border-radius: 6px;
-    background: #fff;
-    box-shadow: 0 0 40px rgba(0, 0, 0, .1);
-}
-.price-list .price-title
-{
-    font-size: 24px;
-    font-weight: 300; 
-
-    margin: 0;
-}
-.price-list .price-value
-{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: normal; 
-
-    margin: 45px 0;
-}
-.price-list .price-value sup
-{
-    font-size: 20px;
-    font-weight: normal;
-
-    position: relative;
-    top: -20px; 
-    left: 5px;
-}
-.price-list .price-value .price-duration
-{
-    font-size: 12px;
-    font-weight: normal; 
-
-    text-transform: uppercase;
-
-    color: #a6a6a6;
-}
-.price-list .price-info-list li
-{
-    line-height: 40px;
-}
-
-.price-bg-height
-{
-    max-height: 500px;
-
-    background: #414141;
-}
 
 .dark-bg
 {
     background: #414141;
 }
 
-.featured-price
-{
-    position: relative;
-}
-.featured-price .recommended
-{
-    font-size: 12px;
-
-    position: absolute;
-    top: -20px;
-    left: 50%;
-
-    max-width: 200px;
-    margin-left: -90px;
-    padding: 1rem 6rem;
-
-    text-transform: uppercase;
-
+.services .services-title{
     color: #fff;
-    border-radius: 5px; 
-    background: #33b3ee;
+}
+.services .services-list .services-icon img
+{
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -1557,7 +1449,7 @@ footer
 .footer p
 {
     font-size: 14px;
-
+    text-align: justify;
     margin-bottom: 30px;
 
     color: #d4d4d4;
@@ -1606,6 +1498,7 @@ footer
 .footer .short-links li
 {
     margin-bottom: 10px;
+    text-align: justify;
 }
 .footer .short-links li a
 {
@@ -1630,7 +1523,7 @@ footer
 
 .footer-title
 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .footer-title h5
 {
@@ -2097,47 +1990,6 @@ buttons
     padding: 8px 20px;
 }
 
-/* ---------------------------------------------
-fun factors
---------------------------------------------- */
-.fun-box .value
-{
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.fun-box .title
-{
-    font-size: 12px;
-}
-
-.fun-separator
-{
-    padding: 3rem;
-
-    border: 1px solid #e9e9e9;
-    border-radius: 5px;
-}
-
-.fun-separator-blue
-{
-    border-color: #33b3ee;
-}
-
-.fun-separator-green
-{
-    border-color: #6ead02;
-}
-
-.fun-separator-red
-{
-    border-color: #fc4848;
-}
-
-.fun-separator-yellow
-{
-    border-color: #f8b42f;
-}
 
 /* ---------------------------------------------
 shortcodes
@@ -2158,6 +2010,10 @@ responsive
     {
         display: inline-block; 
         float: none;
+    }
+    .navbar-brand
+    {
+        margin-top: 0px;
     }
     .navbar .navbar-collapse
     {
@@ -2203,12 +2059,6 @@ responsive
 
         margin-left: -15px;
     }
-    .instagram-image
-    {
-        float: left;
-
-        width: 33%;
-    }
     .footer .col-md-4
     {
         margin-bottom: 50px;
@@ -2221,6 +2071,10 @@ responsive
     .parallax
     {
         background-attachment: scroll;
+    }
+    .career-list
+    {
+        margin-bottom: 30px;
     }
 }
 
