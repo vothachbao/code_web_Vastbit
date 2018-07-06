@@ -956,7 +956,6 @@ portfolio
 }
 .portfolio .portfolio-item .thumb img
 {
-    width: 75%;
     height: 300px;
 }
 
@@ -1167,7 +1166,7 @@ portfolio
 /*--------------------------------------
     responsive styles
 --------------------------------------*/
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1500px)
 {
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
@@ -1196,7 +1195,7 @@ portfolio
     }
 }
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 767px)
 {
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
