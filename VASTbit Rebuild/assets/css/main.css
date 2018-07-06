@@ -1958,6 +1958,11 @@ responsive
     {
         background-attachment: scroll;
     }
+    .about .sub-title
+    {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px)
@@ -2112,6 +2117,11 @@ responsive
     .team-member
     {
         width: 100%;
+    }
+    .clients .feature-list-img
+    {
+        width: 100px;
+        height: 100px;
     }
 }
 
