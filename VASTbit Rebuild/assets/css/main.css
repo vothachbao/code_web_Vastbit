@@ -1883,6 +1883,10 @@ responsive
 --------------------------------------------- */
 @media (max-width: 991px)
 {
+    .main-content
+    {
+        margin-bottom: 0px !important;
+    }
     .navbar
     {
         height: auto;
