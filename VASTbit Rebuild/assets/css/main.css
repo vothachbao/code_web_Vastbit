@@ -957,7 +957,20 @@ portfolio
 .portfolio .portfolio-item .thumb img
 {
     height: 300px;
+    width: 100%;
 }
+
+.portfolio .portfolio-item .app
+{
+    position: relative;
+
+    display: block;
+}
+.portfolio .portfolio-item .app img
+{
+    height: 300px;
+}
+
 
 .portfolio-hover
 {
