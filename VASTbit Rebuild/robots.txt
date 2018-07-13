@@ -1,0 +1,3 @@
+﻿User-agent: *
+Disallow: /assets
+Sitemap: https://vastbit.com/sitemap.xml
