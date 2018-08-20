@@ -134,7 +134,15 @@
 </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="https://www.facebook.com/Vastbit-1894873080833611/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 <div class="main-content">
 
     <!--header start-->
@@ -810,7 +818,9 @@
                  </div>
                  <div class="latest-post">
                      <div class="footer-social-links">
-                     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                     <a href="https://www.facebook.com/Vastbit-1894873080833611/" class="facebook"><i class="fa fa-facebook"></i>
+                     <div class="fb-like" data-href="https://www.facebook.com/Vastbit-1894873080833611/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                    </a>
                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                      <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
                      <a href="#" class="rss"><i class="fa fa-rss"></i></a>
@@ -868,7 +878,7 @@
 <script src="assets/vendor/wow.min.js"></script>
 
 <!--google map. // if you don't need google map remove this script-->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsYhlBvBhafTXar0dHZT4OZ8ZyyxyvOws&callback=myMap"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhrXcIKBd7Jfk3vRfYx5mLOEFsHOA3A3E&callback=myMap"></script>
 <script src="assets/vendor/google-map-init.js"></script>
 
 <!--contact form-->
