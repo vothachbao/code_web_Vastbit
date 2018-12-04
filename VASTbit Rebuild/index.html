@@ -142,7 +142,7 @@
   js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="https://www.facebook.com/Vastbit-1894873080833611/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+<div class="fb-like hidden-xs" data-href="https://www.facebook.com/Vastbit-1894873080833611/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 <div class="main-content">
 
     <!--header start-->
@@ -195,8 +195,11 @@
     <!--header end-->
 
     <!--hero section start-->
-    <div id="home">
-        <section class="hero full-height data-overlay" style="background-image: url('assets/img/banner.png');">
+    <div class="data-overlay" id="home">         
+        <video autoplay="" loop class="myVideo hero">
+          <source src="assets/img/videobackground.mp4" type="video/mp4">
+        </video>
+        <!--<section class="hero full-height data-overlay" style="background-image: url('assets/img/banner.png');">        
             <div class="hero-content light-txt text-center">
                 <div class="container">
                     <div class="row">
@@ -210,9 +213,8 @@
                     </div>
                 </div>
             </div>
-
-        </section>
-        <section class="hero full-height data-overlay" style="background-image: url('assets/img/contact.png');">
+            </section>-->
+        <!--<section class="hero full-height data-overlay" style="background-image: url('assets/img/contact.png');">
             <div class="hero-content light-txt text-center">
                 <div class="container">
                     <div class="row">
@@ -226,7 +228,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
         <section class="hero full-height data-overlay" style="background-image: url('assets/img/vision.png');">
             <div class="hero-content light-txt text-center">
@@ -242,8 +243,7 @@
                     </div>
                 </div>
             </div>
-
-        </section>
+        </section>-->
     </div>
     <!--hero section end--> 
 
