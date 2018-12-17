@@ -87,7 +87,17 @@ section p{line-height:30px;margin-bottom:40px;}
 .section-gray{background:#f8f8f8;}
 .section-title{display:block;margin-bottom:30px;}
 .section-title .title{font-size:36px;font-weight:800;line-height:46px;display:inline-block;margin-top:0;margin-bottom:0;letter-spacing:2px;color:#414141;}
-.section-title .sub-title{font-size:16px;line-height:30px;margin-top:30px;color:#757575;}
+.section-title .sub-title{font-size:16px;line-height:30px;margin-top:30px;color:#32c69a;}
+.slidepart{margin-bottom: 30px;text-align: center;}
+.slidebutton{background-color:#32c69a;color: #fff;}
+.active,:hover {color: #000;}
+.bookingapp {margin-top:-60px}
+.bookingapp .downloadapp img{width:180px;height:50px;margin-bottom:50px}
+.bookingapp .app-screenshot {background: url('../img/iphoneframe.png')center no-repeat;height:500px;margin-bottom: 30px; text-align: center;}
+.bookingapp .app-screenshot img {height:390px;margin-top:50px}
+.bookingapp .app-name{font-size:26px;font-weight:800}
+.bookingapp .app-intro{font-size:16px;line-height:30px;margin-top:30px;margin-bottom:30px;color:#32c69a;}
+.bookingapp .app-title{margin-top:20%}
 .parallax{position:relative;text-align:justify;background:no-repeat center center scroll;background-attachment:fixed;background-size:cover;}
 .gray-bg{background:#f8f8f8;}
 .feature-wrapper,
@@ -135,6 +145,7 @@ section p{line-height:30px;margin-bottom:40px;}
 .services-list .services-desk{height:200px}
 .portfolio.col-2{width:100%}
 .portfolio-box{width:100%;}
+.bookingapp{margin-top:0px}
 }
 @media screen and (max-width:767px){.portfolio-filter li{margin-bottom:25px;}
 .portfolio{margin:20px 0 0 0;}
@@ -255,6 +266,8 @@ input.form-control{height:50px;}
 .navbar .navbar-collapse{margin-top:12px;}
 .navbar-right{display:inline-block;margin-right:0;}
 .hero .hero-content .hero-title{font-size:46px;}
+.bookingapp {margin-top:-50px}
+.bookingapp .app-title{margin-top:0px}
 .quotatoin-wrap{padding-right:0;}
 .feature-wrapper .col-md-4,
 .services-wrapper .col-md-4,
@@ -318,6 +331,8 @@ input.form-control{height:50px;}
 .services-wrapper .col-md-4,
 .team-member{width:100%;}
 .clients .feature-list-img{width:100px;height:100px;}
+.bookingapp .app-title .app-name {font-size:20px}
+.bookingapp .downloadapp img {width:150px;height:40px}
 }
 @media (max-width:479px){.hero .hero-content .hero-title{font-size:26px;}
 }

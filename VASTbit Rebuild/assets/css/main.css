@@ -82,12 +82,20 @@ p{color:#757575;}
 .data-overlay .container{position:relative;z-index:100;}
 .data-overlay:before{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;content:'';background:#000;opacity:.4;}
 .main-content{position:relative;z-index:100;background:#fff;margin-bottom:500px !important;}
-.section-space{padding:100px 0;}
+.section-space{padding:50px 0;}
 section p{line-height:30px;margin-bottom:40px;}
 .section-gray{background:#f8f8f8;}
 .section-title{display:block;margin-bottom:80px;}
 .section-title .title{font-size:36px;font-weight:800;line-height:46px;display:inline-block;margin-top:0;margin-bottom:0;letter-spacing:2px;color:#414141;}
 .section-title .sub-title{font-size:16px;line-height:30px;margin-top:30px;color:#757575;}
+.text-center .separator{position:relative;}
+.text-center .separator:after{position:absolute;bottom:-15px;left:50%;width:40px;height:1px;margin-left:-20px;content:'';background:#757575;}
+.text-center .separator:before{position:absolute;bottom:-12px;left:50%;width:50px;height:1px;margin-left:-25px;content:'';background:#757575;}
+.light-txt .separator:after,
+.light-txt .separator:before{content:'';background:#fff;}
+.separator{position:relative;}
+.separator:before{position:absolute;bottom:-15px;left:0;width:40px;height:1px;margin-left:0;content:'';background:#757575;}
+.separator:after{position:absolute;bottom:-12px;left:0;width:50px;height:1px;margin-left:0;content:'';background:#757575;}
 .para-title{font-family:'Open Sans', sans-serif;font-size:30px;font-weight:700;line-height:normal;margin-top:50px}
 .parallax{position:relative;text-align:justify;background:no-repeat center center scroll;background-attachment:fixed;background-size:cover;}
 .clients{text-align:center;}
@@ -106,6 +114,7 @@ section p{line-height:30px;margin-bottom:40px;}
 .services-list{height:100px;margin-bottom:50px;}
 .services-list .services-icon{float:left;margin-bottom:35px;width:80px;}
 .services-list .services-icon i{font-size:42px;position:relative;top:0;}
+.about {margin-top:50px}
 .about .services-list .services-icon img{width:75%;}
 .services-list .services-desk{display:inherit;overflow:hidden;}
 .services-list .services-title{margin-top:0;margin-bottom:2rem;}
