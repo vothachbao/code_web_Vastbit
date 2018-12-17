@@ -38,6 +38,10 @@ p{color:#757575;}
 .light-txt span,
 .light-txt .sub-title,
 .light-txt div{color:#fff !important;}
+#vision {background-image:url('../img/vision.png')}
+#credential {background-image:url('../img/logo_vastbit_2.png')}
+#careers {background-image:url('../img/vision.png')}
+#contact {background-image:url('../img/contact.png')}
 .navbar-white{background:#fff;box-shadow:0 5px 12px 0 rgba(50, 50, 50, .08);}
 .navbar-brand{padding:0px 15px;margin-top:5px;margin-bottom:-15px;}
 .navbar-brand > img{max-width:75%;}
