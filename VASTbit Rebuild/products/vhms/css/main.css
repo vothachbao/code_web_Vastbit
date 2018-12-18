@@ -43,7 +43,7 @@ p{color:#757575;}
 .navbar-white{background:#fff;box-shadow:0 5px 12px 0 rgba(50, 50, 50, .08);}
 .navbar-brand{padding:0px 15px;margin-top:5px;margin-bottom:-15px;}
 .navbar-brand > img{max-width:75%;}
-.navbar{height:75px;background-color: #32c69a;}
+.navbar{height:75px;background-color:#32c69a;}
 .navbar .dropdown-slide .dropdown-menu{right:auto;left:auto;display:block;visibility:hidden;padding:15px;-webkit-transition:visibility .2s, opacity .2s, -webkit-transform 500ms cubic-bezier(.43, .26, .11, .99);transition:visibility .2s, opacity .2s, -webkit-transform 500ms cubic-bezier(.43, .26, .11, .99);transition:visibility .2s, opacity .2s, transform 500ms cubic-bezier(.43, .26, .11, .99);transition:visibility .2s, opacity .2s, transform 500ms cubic-bezier(.43, .26, .11, .99), -webkit-transform 500ms cubic-bezier(.43, .26, .11, .99);-webkit-transform:translateY(30px);-ms-transform:translateY(30px);transform:translateY(30px);opacity:0;border:none;border-radius:0;box-shadow:0 3px 4px rgba(0, 0, 0, .07);}
 .navbar .dropdown-slide .dropdown-menu li a{padding:10px 0;}
 .navbar .dropdown-slide:hover .dropdown-menu{display:block;visibility:visible;-webkit-transform:translateY(0px);-ms-transform:translateY(0px);transform:translateY(0px);opacity:1;color:#777;}
@@ -71,7 +71,7 @@ p{color:#757575;}
 .navbar .navbar-nav li.current a:before{position:absolute;bottom:0px;left:0;width:100%;height:2px;content:' ';-webkit-transition:300ms ease-in-out;transition:300ms ease-in-out;opacity:1;background:#fc4848;}
 .navbar .navbar-nav li.current.dropdown a{color:#414141;}
 .navbar .navbar-nav li.current.dropdown a:hover{color:#fc4848;}
-.hero{position:relative;display:table;width:100%;padding:0;background-image: url('../img/banner.png');background-attachment:fixed;background-position:center;background-size:cover;}
+.hero{position:relative;display:table;width:100%;padding:0;background-image:url('../img/banner.png');background-attachment:fixed;background-position:center;background-size:cover;}
 .hero .hero-content{position:relative;z-index:100;display:table-cell;-webkit-transform:translateY(3rem);-ms-transform:translateY(3rem);transform:translateY(3rem);vertical-align:middle;}
 .hero .hero-content .hero-title{font-size:50px;font-weight:bold;margin-bottom:70px;}
 .hero-inner{width:100%;margin-top:75px;padding:10rem 0;background-color:#000;background-repeat:no-repeat;background-position:0 0;background-size:cover;}
@@ -90,13 +90,13 @@ section p{line-height:30px;margin-bottom:40px;}
 .section-title{display:block;margin-bottom:30px;}
 .section-title .title{font-size:36px;font-weight:800;line-height:46px;display:inline-block;margin-top:0;margin-bottom:0;letter-spacing:2px;color:#414141;}
 .section-title .sub-title{font-size:16px;line-height:30px;margin-top:30px;color:#32c69a;}
-.slidepart{margin-bottom: 30px;text-align: center;}
-.slidebutton{background-color:#32c69a;color: #fff;}
-.active,:hover {color: #000;}
-.bookingapp {margin-top:-60px}
+.slidepart{margin-bottom:30px;text-align:center;}
+.slidebutton{background-color:#32c69a;color:#fff;}
+.active,:hover{color:#000;}
+.bookingapp{margin-top:-60px}
 .bookingapp .downloadapp img{width:180px;height:50px;margin-bottom:50px}
-.bookingapp .app-screenshot {background: url('../img/iphoneframe.png')center no-repeat;height:500px;margin-bottom: 30px; text-align: center;}
-.bookingapp .app-screenshot img {height:390px;margin-top:50px}
+.bookingapp .app-screenshot{background:url('../img/iphoneframe.png')center no-repeat;height:500px;margin-bottom:30px; text-align:center;}
+.bookingapp .app-screenshot img{height:390px;margin-top:50px}
 .bookingapp .app-name{font-size:26px;font-weight:800}
 .bookingapp .app-intro{font-size:16px;line-height:30px;margin-top:30px;margin-bottom:30px;color:#32c69a;}
 .bookingapp .app-title{margin-top:20%}
@@ -138,13 +138,12 @@ section p{line-height:30px;margin-bottom:40px;}
 .portfolio-title a{color:#fff;}
 .portfolio.gutter .portfolio-item{padding:20px;}
 .portfolio.col-2 .portfolio-item{width:48%;margin-left:1%;margin-right:1%;}
-.portfolio.col-2 img{width: 100%}
+.portfolio.col-2 img{width:100%}
 .portfolio.col-3 .portfolio-item{width:33.3333333%;}
 .portfolio.col-4 .portfolio-item{width:24.98%;}
 .portfolio.col-5 .portfolio-item{width:19.99%;}
 .portfolio.col-6 .portfolio-item{width:16.666666667%;}
-@media screen and (max-width:1200px){
-.services-list .services-desk{height:200px}
+@media screen and (max-width:1200px){.services-list .services-desk{height:200px}
 .portfolio.col-2{width:100%}
 .portfolio-box{width:100%;}
 .bookingapp{margin-top:0px}
@@ -268,7 +267,7 @@ input.form-control{height:50px;}
 .navbar .navbar-collapse{margin-top:12px;}
 .navbar-right{display:inline-block;margin-right:0;}
 .hero .hero-content .hero-title{font-size:46px;}
-.bookingapp {margin-top:-50px}
+.bookingapp{margin-top:-50px}
 .bookingapp .app-title{margin-top:0px}
 .quotatoin-wrap{padding-right:0;}
 .feature-wrapper .col-md-4,
@@ -287,7 +286,7 @@ input.form-control{height:50px;}
 .hero,
 .parallax{background-attachment:scroll;}
 .about .sub-title{padding-right:50px;padding-left:50px;}
-.services-list .services-desk{height: 300px}
+.services-list .services-desk{height:300px}
 }
 @media screen and (max-width:991px) and (min-width:768px){.hero-inner .hero-content{-webkit-transform:translateY(3rem);-ms-transform:translateY(3rem);transform:translateY(3rem);}
 .hero,
@@ -333,8 +332,8 @@ input.form-control{height:50px;}
 .services-wrapper .col-md-4,
 .team-member{width:100%;}
 .clients .feature-list-img{width:100px;height:100px;}
-.bookingapp .app-title .app-name {font-size:20px}
-.bookingapp .downloadapp img {width:150px;height:40px}
+.bookingapp .app-title .app-name{font-size:20px}
+.bookingapp .downloadapp img{width:150px;height:40px}
 }
 @media (max-width:479px){.hero .hero-content .hero-title{font-size:26px;}
 }

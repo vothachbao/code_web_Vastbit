@@ -81,7 +81,7 @@ p{color:#757575;}
 .hero-content .hero-title{margin:0;}
 .banner h1,.banner h4{color:#fff}
 .full-height{height:100vh;}
-.myVideo {width: 100%;height: 100%;margin-bottom:-50px;padding-top:50px}
+.myVideo{width: 100%;height: 100%;margin-bottom:-50px;padding-top:50px}
 .data-overlay{position:relative;}
 .data-overlay .container{position:relative;z-index:100;}
 .data-overlay:before{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;content:'';background:#000;opacity:.4;}
@@ -118,7 +118,7 @@ section p{line-height:30px;margin-bottom:40px;}
 .services-list{height:100px;margin-bottom:50px;}
 .services-list .services-icon{float:left;margin-bottom:35px;width:80px;}
 .services-list .services-icon i{font-size:42px;position:relative;top:0;}
-.about {margin-top:50px}
+.about{margin-top:50px}
 .about .services-list .services-icon img{width:75%;}
 .services-list .services-desk{display:inherit;overflow:hidden;}
 .services-list .services-title{margin-top:0;margin-bottom:2rem;}
@@ -351,5 +351,5 @@ input.form-control{height:50px;}
 }
 @media (max-width:479px){.hero-content .hero-title{font-size:26px;}
 .about{margin-top:50px}
-.hero-content h4 {font-size:15px}
+.hero-content h4{font-size:15px}
 }
