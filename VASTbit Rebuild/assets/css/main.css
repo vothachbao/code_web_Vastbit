@@ -100,7 +100,7 @@ section p{line-height:30px;margin-bottom:40px;}
 .separator{position:relative;}
 .separator:before{position:absolute;bottom:-15px;left:0;width:40px;height:1px;margin-left:0;content:'';background:#757575;}
 .separator:after{position:absolute;bottom:-12px;left:0;width:50px;height:1px;margin-left:0;content:'';background:#757575;}
-.para-title{font-family:'Open Sans', sans-serif;font-size:30px;font-weight:700;line-height:normal;margin-top:50px}
+.para-title{font-family:'Open Sans', sans-serif;font-size:30px;font-weight:700;line-height:normal;}
 .parallax{position:relative;text-align:justify;background:no-repeat center center scroll;background-attachment:fixed;background-size:cover;}
 .clients{text-align:center;}
 .clients .feature-list-img{display:inline-block;width:128px;height:128px;margin-bottom:50px;text-align:center;}
