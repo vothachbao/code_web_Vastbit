@@ -797,7 +797,7 @@
                                 <div class=" col-md-6">
                                     <div class="form-group ">
                                         <input type="text" id="name" class="form-control" placeholder="Name"
-                                               required data-error="Please enter your name">
+                                               required name="user_name" data-error="Please enter your name">
 
                                         <div class="help-block with-errors"></div>
                                     </div>
@@ -806,7 +806,7 @@
                                 <div class=" col-md-6">
                                     <div class="form-group ">
                                         <input type="email" class="email form-control" id="email"
-                                               placeholder="Email" required
+                                               placeholder="Email" name="user_email" required
                                                data-error="Please enter your email">
 
                                         <div class="help-block with-errors"></div>
@@ -815,13 +815,13 @@
                             </div>
                             <div class="form-group">
                                 <div class="controls">
-                                    <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                    <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required name="email_subject" data-error="Please enter your message subject">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="controls">
-                                    <textarea id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
+                                    <textarea id="message" rows="7" placeholder="Message" class="form-control" required name="email_message" data-error="Write your message"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
