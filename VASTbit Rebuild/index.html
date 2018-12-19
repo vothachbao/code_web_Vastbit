@@ -147,8 +147,23 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-like hidden" data-href="https://www.facebook.com/Vastbit-1894873080833611/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-<div class="main-content">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1894873080833611">
+</div>
+
+<div class="main-content">
     <!--header start-->
     <header class="header">
         <nav class="navbar navbar-inverse- navbar-white navbar-fixed-top navbar-expanded">
@@ -777,7 +792,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-md-offset-1">
-                        <form role="form" id="contactForm" class="contact-form" data-toggle="validator">
+                        <form role="form" id="contactForm" class="contact-form" data-toggle="validator" method="post">
                             <div class="row">
                                 <div class=" col-md-6">
                                     <div class="form-group ">
